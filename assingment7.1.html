@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form method="PUT">
+            <label>Token</label>
+            <input type="hidden" value="b92f1fc2fce391ad7af633723afd3055" name="token">
+            <br>
+            <label>Email</label>
+            <input type="email" value="o@o.com" readonly name="email">
+            <br>
+            <label>Username</label>
+            <input type="text" autofocus maxlength="20" minlength="5" name="username">
+            <br>
+            <div>
+                <label for="algo">Algorithms</label>
+                <input type="checkbox" id="algo"/>
+            </div>
+            <div>
+                <label for="D&S">Data Structure</label>
+                <input type="checkbox" id="D&S" name="skills"/>
+            </div>
+            <div>
+                <label for="plan">Planning</label>
+                <input type="checkbox" id="plan" name="skills"/>
+            </div>
+            <div>
+                <label for="LT">Logical thinking</label>
+                <input type="checkbox" id="LT" name="skills" checked/>
+            </div>
+            <div>
+                <label for="PS">problem solving</label>
+                <input type="checkbox" id="PS" name="skills"/>
+            </div>
+            <div>
+                <label for="T">templates</label>
+                <input type="checkbox" id="T" name="skills"/>
+            </div>
+            <br>
+            <hr>
+            <div>
+                <input type="radio" id="FED" value="Fron-End Developer" name="job" />
+                <label for="FED">Front-End Developer</label>
+            </div>
+            <div>
+                <input type="radio" if="BED" value="Back-End Developer" name="job" checked />
+                <label for="BED">Back-End Developer</label>
+            </div>
+            <div>
+                <input type="radio" id="BA" value="Bussines Analyst" name="job" />
+                <label for="BA">Bussiness Analyst</label>
+            </div>
+            <div>
+                <input type="radio" id="PM" value="Project Manager" name="job" />
+                <label for="PM">Project Manager</label>
+            </div>
+            <div>
+                <input type="radio" id="scrum" value="Scrum Master" name="job" />
+                <label for="scrum">Scrum Master</label>
+            </div>
+            <br>
+            <hr />
+            <div>
+                <label for="Language">Coose Language Edition:</label>
+                <select name="Programming Language" id="Language">
+                    <optgroup label="Python">
+                        <option value="2.0">2.0</option>
+                        <option value="3.10">3.10</option>
+                        <option value="3.11">3.11</option>
+                    </optgroup>
+                    <optgroup label="PHP">
+                        <option value="5.0">5.0</option>
+                        <option value="7.10">7.10</option>
+                        <option value="8.11">8.11</option>
+                    </optgroup>
+                </select>
+            </div>
+            <br>
+            <textarea name="about_Programming" col="40" rows="10" placeholder=" Write Here Why You Want To Learn Programming"></textarea>
+            <br>
+            <input type="submit" value="send">
+            <input type="reset" value="Empty">
+        </form>
+    </body>
+</html>
